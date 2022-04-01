@@ -13,8 +13,21 @@ public String getHomeView(ModelMap model) {
 		//This line is use with the tradition
 		//model.addAttribute("name","Mailing Page");
 		
-		model.put("name","Meiling");
+		model.put("name","Meiling Vega Delgado");
 		
 		return "index";
 	}
+	
+	
+	@GetMapping("/test")
+	public String getTestView(ModelMap model) {
+			//This line is use with the tradition
+			//model.addAttribute("name","Mailing Page");
+			
+			model.put("name","Mai -Ling Delgado");
+			
+			return "index";
+		}
 }
+
+//This is my test code
